@@ -1,12 +1,13 @@
 <?php
 
 // Inclui a verificação de sessão (protege a página de acesso não autorizado)
-include ("verificar_sessao.php");
+include("verificar_sessao.php");
 
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +18,7 @@ include ("verificar_sessao.php");
 <body>
     <div class="container">
         <!-- Exibe o nome do usuário logado (vem da sessão $_SESSION) -->
-         <H1>Olá, <?php echo $_SESSION['nome']; ?></H1>
+        <H1>Olá, <?php echo $_SESSION['nome']; ?></H1>
         <p class="subtitulo">Bem-vindo ao painel da biblioteca. Escolha uma opção:</p>
         <!-- Cards grandes para facilitar a navegação -->
         <div class="painel-cards">
@@ -37,4 +38,5 @@ include ("verificar_sessao.php");
         </div>
     </div>
 </body>
+
 </html>
