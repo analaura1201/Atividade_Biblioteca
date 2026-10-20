@@ -7,6 +7,7 @@ include("verificar_sessao.php");
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,9 +38,9 @@ include("verificar_sessao.php");
                     <option value="Emprestado">Emprestado</option>
                 </select>
             </div>
-            
+
             <button type="submit" class="btn btn-block btn-sucesso">
-                Salvar Livro 
+                Salvar Livro
             </button>
         </form>
 
@@ -50,4 +51,5 @@ include("verificar_sessao.php");
 
     </div>
 </body>
+
 </html>
